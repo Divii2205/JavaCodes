@@ -24,7 +24,7 @@ public class TicTacToe {
         while(turn<9){
 
             b.print();
-            System.out.println(p1.name + " 's move");
+            System.out.println(p1.name + "'s move");
             p1.makeMove(b.board);
             if (b.winStat(p1.symbol)) {
                 System.out.println(p1.name + " won the game!");
@@ -36,7 +36,7 @@ public class TicTacToe {
             if (turn == 9) break;
 
             b.print();
-            System.out.println(p2.name + " 's move");
+            System.out.println(p2.name + "'s move");
             p2.makeMove(b.board);
             if (b.winStat(p2.symbol)) {
                 System.out.println(p2.name + " won the game!");
@@ -58,7 +58,9 @@ public class TicTacToe {
         String p2_name = sc.next();
         System.out.print("Choose your symbol: ");
         char p2_symbol = sc.next().charAt(0);
-       
+        
+        System.out.println();
+
         Game(p1_name, p1_symbol, p2_name, p2_symbol);
         sc.close();
     }
@@ -127,6 +129,6 @@ class Player{
         int m = sc.nextInt();
         System.out.println();
 
-        board[n][m] = symbol;
+        board[n-1][m-1] = symbol;
     }
 }
