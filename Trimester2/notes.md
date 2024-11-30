@@ -18,7 +18,6 @@ Scanner sc = new Scanner();
 !! Creating a class will create a constructor function by default
 The constructor will not return anything (no value, not void)
 
-
 __________________
 
 
@@ -63,7 +62,6 @@ Advantages:
 
 *NOTE:* A class cannot extend from more than one class (to avoid ambiguity) --- **Diamond Inheritance Problem**
 
-
 __________________
 
 
@@ -86,4 +84,28 @@ One object can belong to many other classes using inheritance
 
 
 # Interfaces -- explore!
+# Getters and Setters -- explore!
 
+__________________
+
+
+# Abstract method -- explore!
+when you make a class abstract, its methods must be present in extended classes
+
+
+# Open-close principle:
+When we are adding a new feature or something similar, to the existing code, the number of times the code is tested must be very minimal. Code must be modular -- open for extension, closed for modification! 
+
+
+# Silent Killer:
+A piece of code that does not throw an error and give an undesired output
+
+
+# Liskov Substitution Principle:
+Objects of parent class must be replacable by the objects of the child class
+
+--------- strategy design pattern --------- **explore!**
+
+# asymptotic analysis -- explore!
+# big - O of a function:
+*tightest* upper bound of all of the functions
