@@ -109,3 +109,8 @@ Objects of parent class must be replacable by the objects of the child class
 # asymptotic analysis -- explore!
 # big - O of a function:
 *tightest* upper bound of all of the functions
+
+__________________
+
+# Sub-Array
+A continuous part of an Array, in the same order. It can be a single element and an empty subArray.
