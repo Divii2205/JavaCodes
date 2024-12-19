@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CumulativeSumQuery",
+      "request": "launch",
+      "mainClass": "TestRevise.Questions.CumulativeSumQuery",
+      "projectName": "JavaCodes_a239e72b"
+    },
+    {
+      "type": "java",
+      "name": "AmazingString",
+      "request": "launch",
+      "mainClass": "TestRevise.Questions.AmazingString",
+      "projectName": "JavaCodes_a239e72b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "TestRevise.Main",
+      "projectName": "JavaCodes_a239e72b"
+    },
+    {
+      "type": "java",
       "name": "PrintAllSubArrays",
       "request": "launch",
       "mainClass": "Trimester2.PrintAllSubArrays",

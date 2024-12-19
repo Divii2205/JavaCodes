@@ -114,3 +114,13 @@ __________________
 
 # Sub-Array
 A continuous part of an Array, in the same order. It can be a single element and an empty subArray.
+
+__________________
+__________________
+
+# Notes for Trimester2 Test1:
+
+1. Class = logical construct
+2. Object = Physical reality -- occupies space in the memory
+__________________
+__________________
