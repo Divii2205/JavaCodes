@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "x",
+      "request": "launch",
+      "mainClass": "x",
+      "projectName": "JavaCodes_a239e72b"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "BinarySearch",
+      "projectName": "JavaCodes_a239e72b"
+    },
+    {
+      "type": "java",
+      "name": "DeletingElementsEvenOdd",
+      "request": "launch",
+      "mainClass": "DeletingElementsEvenOdd",
+      "projectName": "JavaCodes_a239e72b"
+    },
+    {
+      "type": "java",
       "name": "MatrixQuery",
       "request": "launch",
       "mainClass": "MatrixQuery",

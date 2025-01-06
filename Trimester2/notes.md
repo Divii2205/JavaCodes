@@ -124,3 +124,6 @@ __________________
 2. Object = Physical reality -- occupies space in the memory
 __________________
 __________________
+
+# Binary Search
+requirements: a target and a search space
