@@ -1,0 +1,1 @@
+{"name":"Local: DistInSubArrayK","url":"c:\\Users\\user\\OneDrive\\Desktop\\JavaCodes\\DistInSubArrayK.java","tests":[{"id":1737017308489,"input":"10\n3 2 1 3 5 6 2 5 5 7\n4","output":"[3, 4, 4, 4, 3, 3, 3]\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\user\\OneDrive\\Desktop\\JavaCodes\\DistInSubArrayK.java","group":"local","local":true}
