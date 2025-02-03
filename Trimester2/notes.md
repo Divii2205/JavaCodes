@@ -127,3 +127,13 @@ __________________
 
 # Binary Search
 requirements: a target and a search space
+__________________
+__________________
+
+# Recursion:
+
+## Time complexity:
+No.of function calls x Time complexity of each function call
+
+## Space complexity:
+Maximum stack height x Space complexity of each function call

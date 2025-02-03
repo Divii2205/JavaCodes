@@ -1,4 +1,4 @@
-// Given an array check if here exists a subarray with sum = k
+// Given an array check if there exists a subarray with sum = k
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -17,9 +17,21 @@ public class SubArraySumK {
     }
 
     static boolean sumK(int[] a, int n, int k){
+        int[] ps = new int[n];
+        ps[0] = a[0];
+
+        for(int i  = 1; i<n; i++){
+            ps[i] = ps[i-1] + a[i];
+        }
+
         HashSet<Integer> set = new HashSet<>();
 
+        for(int i = 0; i<n; i++) set.add(ps[i]);
 
+        for(int i = 0; i<n; i++){
+            int pair = ps[i] - k;
+            if(set.contains(pair)) return true;
+        }
 
         return false;
     }
