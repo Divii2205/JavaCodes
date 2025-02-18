@@ -3,8 +3,6 @@
 // Time complexity: O(nlogn)
 // Space complexity: O(n)
 
-package Recursion;
-
 import java.util.Scanner;
 
 public class RecursiveMergeSort {
@@ -16,6 +14,7 @@ public class RecursiveMergeSort {
         for(int i = 0; i<n; i++) a[i] = sc.nextInt();
 
         mergeSort(a, 0, n-1);
+        for(int i = 0; i<a.length; i++) System.out.print(a[i] + " ");
     }
 
     static void mergeSort(int[] A, int l, int r){
@@ -26,7 +25,25 @@ public class RecursiveMergeSort {
         merge(A, l, mid+1, r);
     }
 
-    static void merge(int[] A, int l, int m, int r){
-        
+    static void merge(int[] a, int l, int m, int r){
+        int[] ans = new int[r-l+1];
+
+        int index = 0;
+
+        int s = l;
+        int e = m;
+
+        while(s<m && e<=r){
+            if(a[s] >= a[e]) ans[index++] = a[e++];
+            else ans[index++] = a[s++];
+        }
+
+        while(s<m) ans[index++] = a[s++];
+
+        while(e<=r) ans[index++] = a[e++];
+
+        for(int i = 0; i<ans.length; i++){
+            a[l++] = ans[i];
+        }
     }
 }

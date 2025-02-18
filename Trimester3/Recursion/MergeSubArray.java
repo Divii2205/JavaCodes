@@ -1,4 +1,4 @@
-// GIven an array and 3 indices l, m, r (l<m<=r)
+// Given an array and 3 indices l, m, r (l<m<=r)
 // The subarray from [l to m-1] and [m to r] are sorted
 // Sort the subarray from l to r
 
